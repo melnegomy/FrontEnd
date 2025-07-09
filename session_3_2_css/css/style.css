@@ -1,0 +1,160 @@
+/*resrt*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.d-inline-block{
+    display: inline-block;
+    width: 20%;
+    
+}
+.logo{
+    font-size: 200%;
+}
+.lg-color{
+    color: chocolate;
+}
+a{
+    display: inline-block;
+    text-decoration: none; 
+    color: azure;
+   
+}
+ul{
+    float: right;
+    
+}
+/*global*/
+.container{
+    width: 80%;
+    margin: 0 auto ;
+    
+}
+nav{
+    padding: 1% 0%;
+    background-color: black;
+}
+nav ul {
+    width: 50%;
+    list-style: none;
+    
+}
+nav li{
+    margin-left: 24%;
+    margin-top: 3%;
+    font-size: 105%;
+
+}
+nav a{
+    margin-left: 5%;
+}
+.banner{
+    background-image: url(../img/sun.jpg);
+    height: 100%;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    
+
+
+}
+
+.content{
+    display: inline-block;
+    width:50%;
+    margin-top: 5%;
+}
+.right-content{
+    display: inline-block;
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 30%;
+
+}
+
+form {
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+form button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content h2 {
+    font-size: 600%;
+    color: white;
+    margin-bottom:5%; 
+}
+
+.prag-one{
+    font-size: xx-large;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10%;
+}
+.prag-two{
+    font-size: small;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.p{
+    color: white;
+    line-height: 1.5;
+    width: 80%;
+    margin-bottom:20%; 
+}
+hr{
+    width: 20%;
+    margin-bottom: 5%;
+}
+.content button {
+    background: none;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.head-form{
+    background-color: rgb(167, 167, 167);
+    color: aliceblue;
+    width: 100%;
+}
+
+.form-text{
+    color: chocolate;
+    width: 100%;
+    padding: 2% 0%;
+}
+
+.overlay{
+    background-color: #00000087;
+    height: 100%;
+     background-size: 100% 100%;
+    min-height: 100vh;
+    
+    
+
+}
